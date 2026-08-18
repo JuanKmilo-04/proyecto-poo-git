@@ -1,0 +1,8 @@
+public class Mago extends Tarea {
+    private int mana;
+
+    public Mago(String nombre, int mana) {
+        super(nombre);
+        this.mana = mana;
+    }
+}
